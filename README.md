@@ -1,4 +1,4 @@
-# MOTD democracy
+# MOTD democracy for Linux terminals 
 
 Hello Fellow Hellvivers, 
 
