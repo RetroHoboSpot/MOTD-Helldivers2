@@ -32,7 +32,7 @@ I created a text file named motd.txt in /ETC/ and added the quotes to it. Each l
 Created a shell script in /ETC/ named motd.sh:
 
 ```bash
-Copy code
+
 #!/bin/bash
 
 #spot was here!
