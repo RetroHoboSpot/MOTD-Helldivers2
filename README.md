@@ -4,9 +4,9 @@ Hello Fellow Hellvivers,
 
 Democracy! 
 
-Ever logged into your NIX and thought dam I need more Democracy!
+Ever thought dam I need more Democracy!
 
-well me too!  so I smash some junk together to make it happen. I used AI and a mix of Reddit post too get something that works, 
+well me too!  so I smash some junk together to make it happen.
 
 **first time using Github but I thought i should write this down somewhere!**  
 
