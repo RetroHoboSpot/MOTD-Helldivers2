@@ -60,6 +60,7 @@ echo
 # echo "$(</etc/motd-art.txt )" 
 echo -e "${ORANGE}TRANING MAUNAL TIPS${NC}"
 echo "$motd_message"
+echo 
 ```
 
 Replace **/path/to/motd.txt** with the actual path to your motd.txt file.
