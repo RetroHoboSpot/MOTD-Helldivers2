@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Spot
+#spot was here!
+
 # Path to the MOTD text file
 MOTD_FILE="/etc/motd.txt"
 
@@ -13,8 +14,12 @@ random_num=$((RANDOM % num_lines + 1))
 # Get the random MOTD message
 motd_message=$(sed -n "${random_num}p" "$MOTD_FILE")
 
+# Orange color code
+ORANGE='\033[0;33m'
+# Reset color code
+NC='\033[0m'
+
 # Display the MOTD message
 echo
-echo TRANING MAUNAL TIPS
+echo -e "${ORANGE}TRANING MAUNAL TIPS${NC}"
 echo "$motd_message"
-echo
