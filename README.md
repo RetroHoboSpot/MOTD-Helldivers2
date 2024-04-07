@@ -1,13 +1,84 @@
 # MOTD democracy
 
-Hello Fellow hellvivers, 
+Hello Fellow Hellvivers, 
 
 Democracy! 
 
 Ever logged into your NIX and thought dam i need more Democracy!
 
-well me too!  so i smash some junk togerther to make it happen. i used AI and mix of reddit post too get somthing that works  
+well me too!  so i smash some junk togerther to make it happen. i used AI and mix of reddit post too get something that works, 
+
+**fisrt time using Github but i thought i should write this down somewhere!**  
 
 
 Training tips found here:
 https://helldivers.wiki.gg/wiki/Training_Manual_Tips#:~:text=Training%20Manual%20Tips%201%20Super%20Earth%20has%20many,could%20result%20in%20a%20child.%20...%20More%20items
+
+
+# install 
+
+so i juts made these files and addeed them to /ETC/
+
+1. motd.txt
+2. motd.sh
+
+Copy them to **/etc/** and follow steps 3 and 4 
+
+
+# Step 1: Create a Text File with Messages
+I created a text file named motd.txt in /ETC/ and added the quotes to it. Each line will be a potential Democracy MOTD message.
+
+# Step 2: Create the MOTD Script
+Created a shell script in /ETC/ named motd.sh:
+
+```bash
+Copy code
+#!/bin/bash
+
+# Path to the MOTD text file
+MOTD_FILE="/path/to/motd.txt"
+
+# Get the number of lines in the MOTD file
+num_lines=$(wc -l < "$MOTD_FILE")
+
+# Generate a random number within the range of the number of lines
+random_num=$((RANDOM % num_lines + 1))
+
+# Get the random MOTD message
+motd_message=$(sed -n "${random_num}p" "$MOTD_FILE")
+
+# Display the MOTD message
+echo "$motd_message"
+```
+
+Replace **/path/to/motd.txt** with the actual path to your motd.txt file.
+
+# Step 3: Make the Script Executable
+Make the motd.sh script executable:
+```bash
+chmod +x motd.sh
+```
+
+# Step 4: Configure the MOTD to Run the Script
+To display the MOTD using the motd.sh script, you need to configure the system to run the script upon login. This can be done by adding a line to the ~/.bashrc or ~/.profile file.
+
+Edit the ~/.bashrc file:
+
+```bash
+nano ~/.bashrc
+```
+
+Add the following line at the end of the file:
+
+```bash
+/path/to/motd.sh
+```
+Replace **/path/to/motd.sh** with the actual path to your motd.sh script.
+
+
+
+## Acknowledgements
+
+ - [helldivers Wiki](https://helldivers.wiki.gg/wiki/Training_Manual_Tips#:~:text=Training%20Manual%20Tips%201%20Super%20Earth%20has%20many,could%20result%20in%20a%20child.%20...%20More%20items)
+ - [ChatGPT - to help celan up the code](https://chat.openai.com/)
+
