@@ -70,6 +70,7 @@ Make the motd.sh script executable:
 ```bash
 chmod +x motd.sh
 ```
+Pro-Tip: if the file is in /etc/ you need to run it as **chmod +x /etc/motd.sh**
 
 # Step 4: Configure the MOTD to Run the Script
 To display the MOTD using the motd.sh script, you need to configure the system to run the script upon login. This can be done by adding a line to the ~/.bashrc or ~/.profile file.
