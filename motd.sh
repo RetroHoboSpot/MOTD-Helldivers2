@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Spot
 # Path to the MOTD text file
 MOTD_FILE="/etc/motd.txt"
 
@@ -13,4 +14,7 @@ random_num=$((RANDOM % num_lines + 1))
 motd_message=$(sed -n "${random_num}p" "$MOTD_FILE")
 
 # Display the MOTD message
+echo
+echo TRANING MAUNAL TIPS
 echo "$motd_message"
+echo
