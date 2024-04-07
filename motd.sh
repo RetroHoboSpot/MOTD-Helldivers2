@@ -1,4 +1,4 @@
-#!/bin/bash
+o#!/bin/bash
 
 #spot was here!
 
@@ -25,3 +25,4 @@ echo
 # echo "$(</etc/motd-art.txt )" 
 echo -e "${ORANGE}TRANING MAUNAL TIPS${NC}"
 echo "$motd_message"
+echo
