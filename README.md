@@ -75,7 +75,14 @@ Add the following line at the end of the file:
 ```
 Replace **/path/to/motd.sh** with the actual path to your motd.sh script.
 
+## Screenshots
 
+Democracy! 
+![App Screenshot](https://raw.githubusercontent.com/RetroHoboSpot/MOTD-Helldivers2/b10811906c8960a3f480867eddf4822569d6fb77/HD2-Normal.png)
+
+
+With ASCII art
+![App Screenshot](https://raw.githubusercontent.com/RetroHoboSpot/MOTD-Helldivers2/b10811906c8960a3f480867eddf4822569d6fb77/HD2-art.png)
 
 ## Acknowledgements
 
