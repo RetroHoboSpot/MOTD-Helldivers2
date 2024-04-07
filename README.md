@@ -4,20 +4,20 @@ Hello Fellow Hellvivers,
 
 Democracy! 
 
-Ever logged into your NIX and thought dam i need more Democracy!
+Ever logged into your NIX and thought dam I need more Democracy!
 
-well me too!  so i smash some junk togerther to make it happen. i used AI and mix of reddit post too get something that works, 
+well me too!  so I smash some junk together to make it happen. I used AI and a mix of Reddit post too get something that works, 
 
-**fisrt time using Github but i thought i should write this down somewhere!**  
+**first time using Github but I thought i should write this down somewhere!**  
 
 
-Training tips found here:
-https://helldivers.wiki.gg/wiki/Training_Manual_Tips#:~:text=Training%20Manual%20Tips%201%20Super%20Earth%20has%20many,could%20result%20in%20a%20child.%20...%20More%20items
+Training tips are found here:
+- [helldivers Wiki](https://helldivers.wiki.gg/wiki/Training_Manual_Tips#:~:text=Training%20Manual%20Tips%201%20Super%20Earth%20has%20many,could%20result%20in%20a%20child.%20...%20More%20items)
 
 
 # install 
 
-so i juts made these files and addeed them to /ETC/
+so I just made these files and added them to /ETC/
 
 1. motd.txt
 2. motd.sh
