@@ -58,7 +58,7 @@ NC='\033[0m'
 echo
 # unhash next line to add Helldivers logo
 # echo "$(</etc/motd-art.txt )" 
-echo -e "${ORANGE}TRANING MAUNAL TIPS${NC}"
+echo -e "${ORANGE}TRANING MANUAL TIPS${NC}"
 echo "$motd_message"
 echo 
 ```
