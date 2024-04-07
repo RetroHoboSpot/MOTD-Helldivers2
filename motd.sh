@@ -21,5 +21,7 @@ NC='\033[0m'
 
 # Display the MOTD message
 echo
+# unhash next line to add Helldivers logo
+# echo "$(</etc/motd-art.txt )" 
 echo -e "${ORANGE}TRANING MAUNAL TIPS${NC}"
 echo "$motd_message"
