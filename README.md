@@ -1,4 +1,4 @@
-# MOTD democracy for Linux terminals 
+# Message Of The Day (MOTD) democracy for Linux terminals 
 
 Hello Fellow Hellvivers, 
 
