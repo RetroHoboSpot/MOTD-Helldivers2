@@ -15,7 +15,14 @@ Training tips are found here:
 - [helldivers Wiki](https://helldivers.wiki.gg/wiki/Training_Manual_Tips#:~:text=Training%20Manual%20Tips%201%20Super%20Earth%20has%20many,could%20result%20in%20a%20child.%20...%20More%20items)
 
 
-# install 
+# auto insatller - probs a bit buggy
+
+```bash
+bash -c "$(wget -qLO - https://github.com/RetroHoboSpot/MOTD-Helldivers2/blob/main/install/freedom-install.sh)"
+```
+
+
+# install - do it your self!  
 
 so I just made these files and added them to /etc/
 
