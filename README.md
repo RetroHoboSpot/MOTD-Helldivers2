@@ -18,7 +18,7 @@ Training tips are found here:
 # auto installer - probs a bit buggy
 
 ```bash
-bash -c "$(wget -qLO - https://github.com/RetroHoboSpot/MOTD-Helldivers2/blob/main/install/freedom-install.sh)"
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/RetroHoboSpot/MOTD-Helldivers2/main/install/freedom-install.sh)"
 ```
 
 
