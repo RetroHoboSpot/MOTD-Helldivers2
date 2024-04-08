@@ -9,8 +9,8 @@ wget https://raw.githubusercontent.com/RetroHoboSpot/MOTD-Helldivers2/main/motd-
 
 
 # Move files to /etc/
-sudo mv motd.sh /etc/
-sudo mv motd.txt /etc/
+sudo mv -f motd.sh /etc/
+sudo mv -f motd.txt /etc/
 
 # Make motd.sh executable
 sudo chmod +x /etc/motd.sh
